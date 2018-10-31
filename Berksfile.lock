@@ -1,0 +1,26 @@
+DEPENDENCIES
+  mongodb
+    git: git@github.com:mohammedkashim10/chef_mongodb_1.git
+    revision: 65226e4db3246ad44c6517ed10b50e6cee9db99a
+  node
+    git: git@github.com:mohammedkashim10/chef_node_1.git
+    revision: 2e82be59bfa45a1ff75b02a7d6e4e018a5981827
+
+GRAPH
+  ark (4.0.0)
+    build-essential (>= 0.0.0)
+    seven_zip (>= 0.0.0)
+  build-essential (8.2.1)
+    mingw (>= 1.1)
+    seven_zip (>= 0.0.0)
+  mingw (2.1.0)
+    seven_zip (>= 0.0.0)
+  mongodb (0.1.0)
+  node (0.1.0)
+    nodejs (~> 5.0.0)
+  nodejs (5.0.0)
+    ark (>= 2.0.2)
+    build-essential (>= 0.0.0)
+  seven_zip (3.0.0)
+    windows (>= 0.0.0)
+  windows (5.1.4)
